@@ -1,0 +1,20 @@
+
+$textcolor:blue;
+$backcolor:#28283a;
+
+.loginpanel
+{
+    text-align: center;
+    color:$textcolor;
+    font-size: 30px;
+
+    button{
+        background:$backcolor ;
+        color:white;
+        height:auto;
+        display:block;
+        margin:0 auto;
+    }
+
+}
+
