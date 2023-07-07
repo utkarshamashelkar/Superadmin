@@ -1,11 +1,11 @@
- import './App.css';
- import AppRoutes from './Routes'
+import "./styles/globals.scss";
+import AppRoutes from "./Routes";
 
 function App() {
   return (
     <div className="App">
-     <AppRoutes/> 
-  </div>  
+      <AppRoutes />
+    </div>
   );
 }
 

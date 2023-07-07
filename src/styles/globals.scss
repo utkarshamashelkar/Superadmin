@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+$grey : #CED7E6;
+$grey-dark : #B5C4DD;
+
+body {
+    margin: 0;
+    font-family: 'Roboto' !important;
+}
+
+.grey-background {
+    background-color: $grey;
+}
+
+.grey-dark-background {
+    background-color: $grey-dark;
+}
