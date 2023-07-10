@@ -29,7 +29,7 @@ const Sidebar = ({ navLinks }) => {
               >
                 <Link to={url}>
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/${icon}`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/icons/${icon}`}
                   />
                   <span>{name}</span>
                 </Link>

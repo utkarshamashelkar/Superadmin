@@ -14,6 +14,7 @@ function AppRoutes() {
           <Route exact path="/widgets" element={<Home />} />
           <Route exact path="/workflows" element={<Home />} />
           <Route exact path="/email" element={<Home />} />
+          <Route exact path="/surveys" element={<Home />} />
           <Route exact path="/customer-journeys" element={<Home />} />
           <Route exact path="/reports" element={<Home />} />
           <Route exact path="/settings" element={<Home />} />

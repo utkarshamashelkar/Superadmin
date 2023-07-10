@@ -36,6 +36,12 @@ function Home() {
     name: "Email",
     icon: "email.svg",
   };
+  navLinks["surveys"] = {
+    component: <Dashboard />,
+    url: "/surveys",
+    name: "Surveys",
+    icon: "surveys.svg",
+  };
   navLinks["email"] = {
     component: <Dashboard />,
     url: "/customer-journeys",
