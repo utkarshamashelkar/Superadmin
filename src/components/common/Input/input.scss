@@ -1,0 +1,29 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+
+  label {
+    font-size: 12px;
+    color: #000000cc;
+    opacity: 0.8;
+  }
+}
+
+.input-field {
+  width: 317px;
+  height: 45px;
+  background: #eef1f5 0% 0% no-repeat padding-box;
+  border: 1px solid #b8c5da;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+input[placeholder] {
+  padding-left: 20px;
+}
+
+.error {
+  padding-top: 5px;
+  color: rgb(255, 53, 53);
+}

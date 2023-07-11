@@ -1,22 +1,25 @@
-import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import React from "react";
+import LoginForm from "./LoginForm/LoginForm";
 import "./login.scss";
 
-function Login() {
-  const navigate = useNavigate();
-
-  function login() {
-    localStorage.setItem("token", "avvkkk");
-    navigate("/dashboard");
-  }
+const Login = () => {
   return (
     <>
-      <div className="loginpanel">
-        Login Details for Senegal Search Super Admin
-        <button onClick={login}>Sign In</button>
+      <div className="login-page">
+        <div className="form-left">
+          <div className="form-section">
+            <LoginForm />
+          </div>
+        </div>
+        <div className="form-right">
+          <div className="image-section">
+            <img src="assets/images/Product-image.png" alt="Product image" />
+          </div>
+        </div>
       </div>
+      <div className="bottom_border"></div>
     </>
   );
-}
+};
 
 export default Login;
