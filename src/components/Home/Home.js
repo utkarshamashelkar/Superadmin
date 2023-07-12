@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
 import Dashboard from "../Dashboard/Dashboard";
+import Tenants from "../Tenants/TenantTable";
 import "./home.scss";
 
 function Home() {
@@ -13,7 +14,7 @@ function Home() {
     icon: "dashboard.svg",
   };
   navLinks["tenants"] = {
-    component: <Dashboard />,
+    component: <Tenants />,
     url: "/tenants",
     name: "Tenants",
     icon: "tenants.svg",
